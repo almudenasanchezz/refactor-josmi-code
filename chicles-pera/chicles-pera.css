@@ -1,4 +1,4 @@
-.content {
+body > div {
     margin: 48px auto;
     max-width: 1200px;
     width: 100%;
@@ -12,27 +12,23 @@
     border-left: 1px solid #eee;
 }
 
-.cart-row {
+.cart > * {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 12px 24px;
 }
 
-.cart-row__info {
+.cart-row-position {
     display: flex;
     align-items: center;
 }
 
-.cart-row__info__units {
+.product-units-space {
     margin-right: 3px;
 }
 
-.cart-row strong {
-    font-size: 1.2em;
-}
-
-.cart-row img {
+.cart-row-image {
     margin-right: 12px;
     max-width: 120px;
 }
@@ -42,20 +38,6 @@
     margin-bottom: 12px;
 }
 
-.delivery label {
-    display: block;
-    margin-bottom: 3px;
-}
-
-.delivery input {
-    margin-right: 12px;
-}
-
-.total {
-    padding-top: 12px;
-    border-top: 1px solid #222;
-}
-
-.total strong {
+.total-strong {
     font-size: 1.5em;
 }
