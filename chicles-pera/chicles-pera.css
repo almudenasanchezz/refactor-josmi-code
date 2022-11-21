@@ -17,6 +17,7 @@ body > div {
     justify-content: space-between;
     align-items: center;
     padding: 12px 24px;
+
 }
 
 .cart-row-position {
@@ -28,6 +29,10 @@ body > div {
     margin-right: 3px;
 }
 
+strong {
+    font-size: 1.2em;
+}
+
 .cart-row-image {
     margin-right: 12px;
     max-width: 120px;
@@ -36,6 +41,20 @@ body > div {
 .delivery {
     padding: 12px;
     margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+input {
+    margin-right: 12px;
+}
+
+.total {
+    padding-top: 12px;
+    border-top: 1px solid #222;
 }
 
 .total-strong {
